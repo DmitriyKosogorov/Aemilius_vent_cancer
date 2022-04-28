@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<block name="MTG_top">
+    <inport>
+        <port id='i-0' name='Input_String' var='I0' type='optical'>Input port 0, with ID of i-0, name of Input_String, attached to variable I0 of designated function</port>
+    </inport>
+    <outport>
+        <port id='o-0' name='Output_String' var='O0' type='logical'>Output port 0, with ID of o-0, name of Output_String, attached to variable O0 of designated function</port>
+		<port id='o-1' name='Output_Error' var='O1' type='electrical'>Output port 0, with ID of o-1, name of Output_Error, attached to variable O1 of designated function</port>
+    </outport>
+    <property>
+        <parameter label='Parameter 0' type='d' default='3.5'>
+		<range>0.0</range>
+		<range>5.0</range>
+	</parameter>
+        <parameter label='Parameter 1' type='s' default='Default Parameter'>
+	</parameter>
+        <parameter label='Parameter 2' type='l' default='2'>
+		<range>-2</range>
+		<range>3.5</range>
+		<range>3.9</range>
+		<range>Mode 1</range>
+		<range>Mode 2</range>
+		<range>Mode 3</range>
+	</parameter>
+        <parameter label='Parameter 3' type='d' default='33'>
+		<range>-20</range>
+		<range>40</range>
+	</parameter>
+        <parameter label='Parameter 4' type='s' default='Default Text'>
+	</parameter>
+    </property>
+    <function name='func'>MTG_parser/mtg_bot.get_price_topdeck(*)</function>
+</block>

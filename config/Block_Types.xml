@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<block-types name="Block Types">
+    <type name='Source'>./config/Block_Type_Source.xml</type>
+    <type name='DSP'>./config/Block_Type_DSP.xml</type>
+    <type name='Sink'>./config/Block_Type_Sink.xml</type>
+	<type name='MTG_translate'>./config/Block_Type_MTGtrans.xml</type>
+	<type name='MTG_top'>./config/Block_Type_MTGtop.xml</type>
+	<type name='command'>./config/Block_Type_command.xml</type>
+	<type name='MTG_gf'>./config/Block_Type_MTGgf.xml</type>
+	<type name='UV_coord'>./config/Block_Type_UVcoord.xml</type>
+	<type name='UV_azim'>./config/Block_Type_UVazim.xml</type>
+	<type name='output'>./config/Block_Type_output.xml</type>
+	<type name='make_plot'>./config/Block_Type_plot.xml</type>
+	<type name='plot_output'>./config/Block_Type_output_plot.xml</type>
+	<type name='value'>./config/Block_Type_Value.xml</type>
+</block-types>

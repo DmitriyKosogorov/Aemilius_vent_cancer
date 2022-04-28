@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<block name="UV_azim">
+    <inport>
+        <port id='i-0' name='Coords' var='I0' type='logical'>Input port 0, with ID of i-0, name of Input 0, attached to variable I0 of designated function</port>
+        <port id='i-1' name='T_begin' var='I1' type='logical'>Input port 1, with ID of i-1, name of Input 1, attached to variable I1 of designated function</port>
+        <port id='i-2' name='T_end' var='I2' type='electrical'>Input port 2, with ID of i-2, name of Input 2, attached to variable I2 of designated function</port>
+		<port id='i-3' name='Interv' var='I3' type='electrical'>Input port 3, with ID of i-3, name of Input 3, attached to variable I3 of designated function</port>
+    </inport>
+    <outport>
+        <port id='o-0' name='Output 0' var='O0' type='logical'>Output port 0, with ID of o-0, name of Output 0, attached to variable O0 of designated function</port>
+    </outport>
+    <property>
+        <parameter label='Parameter 0' type='d' default='3.5'>
+		<range>0.0</range>
+		<range>5.0</range>
+	</parameter>
+        <parameter label='Parameter 1' type='s' default='Default Parameter'>
+	</parameter>
+        <parameter label='Parameter 2' type='l' default='2'>
+		<range>-2</range>
+		<range>3.5</range>
+		<range>3.9</range>
+		<range>Mode 1</range>
+		<range>Mode 2</range>
+		<range>Mode 3</range>
+	</parameter>
+        <parameter label='Parameter 3' type='d' default='33'>
+		<range>-20</range>
+		<range>40</range>
+	</parameter>
+        <parameter label='Parameter 4' type='s' default='Default Text'>
+	</parameter>
+    </property>
+    <function name='func'>OpenUV/uv_bot.azimuth_plt(*)</function>
+</block>

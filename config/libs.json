@@ -1,0 +1,6 @@
+{
+	"MTG_parser":["MTG_bot","mtg_bot"],
+	"OpenUV":["openUV_bot","uv_bot"],
+	"OpenWeather":["OW_bot","ow_bot"],
+	"matplotlib.pyplot":["plt"]
+}

@@ -1,0 +1,18 @@
+Command 	Description
+n 	new block diagram file
+w 	write block diagram to file
+r 	read block diagram from file
+e 	edit property of the blockc
+l 	select block type
+v 	verify the block diagrams
+u 	prepare the block diagrams for execution
+b 	place a block on canvas
+c 	place a connector on canvas
+d 	remove item(s) from canvas
+m 	move item(s) on canvas
+g 	toggle the guidelines
+s 	toggle snap mode
+p 	print out the existing items
+esc 	cancel ongoing operation
+
+#https://github.com/MansourM61/Blodiator
